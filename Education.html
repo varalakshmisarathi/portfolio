@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>varalakshmi portfolio</title>
+    <meta charset="UTF-8" />
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    
+  </head>
+  <style>
+#div1
+    {
+      background-image:url("https://img.favpng.com/25/14/7/desktop-wallpaper-school-education-clip-art-png-favpng-dqY8iCud4eV9KvpJydsuUYp8Z.jpg");
+      background-size: 1335px 700px;
+      background-repeat: no-repeat;
+      height: 600px;
+      width:1300px; 
+      padding:18px;
+    }
+#div2
+    {
+     margin-left:180px;
+     margin-top:120px;
+    }
+h3
+    {
+      color:white;
+    }
+  </style>
+<body>
+    <div id="app"></div>
+    <script type="text/babel">
+      const rootElement = document.getElementById("app");
+      const Element1=()=>
+      <div id="div1"> 
+      <div id="div2">
+       <h1 style={{color:"#299BF4",fontSize:"35px",marginLeft:"350px"}}>EDUCATION</h1>
+       <h2>Bachelor of Engineering</h2>
+       <h3>Rajiv Gandhi College Of Engineering And Technology</h3>
+       <h3>Year of passing:2020</h3>
+       <h2>Higher secondary education</h2>
+       <h3>Immaculate heart of mary girls hr sec school</h3>
+       <h3>Year of passing:2016</h3>
+       <h2>secondary school education</h2>
+       <h3>St joseph girls aided high school</h3>
+       <h3>Year of passing:2014</h3>
+      </div>
+      </div>;
+    ReactDOM.render(<Element1/>, rootElement);
+    </script>
+    </body>
+   </html>
