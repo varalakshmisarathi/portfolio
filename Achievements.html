@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>varalakshmi portfolio</title>
+    <meta charset="UTF-8" />
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<style>
+#div1
+    {
+      background-image:url("https://swarajtechnocrafts.com/wp-content/uploads/2019/01/awards-swaraj-technocrafts-2.jpg");
+      background-size: 1335px 700px;
+      background-repeat: no-repeat;
+      height: 600px;
+      width:1300px; 
+      padding:18px;
+    }
+    
+</style>
+<body>
+    <div id="app"></div>
+    <script type="text/babel">
+      const rootElement = document.getElementById("app");
+      const Element1=()=>
+      <div id="div1"> 
+       <h1 style={{color:"black",fontSize:"35px",marginLeft:"380px"}}>ACHIEVEMENTS AND AWARDS</h1>
+       <p style={{color:"#800000",fontSize:"25px",marginLeft:"35px",top:"80px"}}>1.  Participated in inter-collegiate competition technical quiz<br/> "CYBYRUS'18" event organized by department of computer science<br/> and engineering</p>
+       <p style={{color:"#800000",fontSize:"25px",marginLeft:"35px",top:"80px"}}>2.   Participated in a workshop on "APP DEVELOPMENT" held at vortex'18,<br/> the National institute of technology</p>
+       <p style={{color:"#800000",fontSize:"25px",marginLeft:"35px",top:"80px"}}>3.  Appointed as a event coordinator for "REC-O-FES'18" conducted by Rajiv<br/> Gandhi College of Engineering And Technology</p>
+       <p style={{color:"#800000",fontSize:"25px",marginLeft:"35px",top:"80px"}}>4.  Made an Industrial visit to chipsoft software solutions Emakulam on january<br/> 19th 2019.</p>
+      </div>;
+    ReactDOM.render(<Element1/>, rootElement);
+</script>
+</body>
+</html>
