@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>varalakshmi portfolio</title>
+    <meta charset="UTF-8" />
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<style>
+#div1
+    {
+      background-image:url("https://www.amplify-pr.co.uk/wp-content/uploads/2017/04/Lightbulb-ideas.jpg");
+      background-size: 1335px 700px;
+      background-repeat: no-repeat;
+      height: 600px;
+      width:1300px; 
+      padding:18px;
+    }
+ #div2
+    {
+    margin-top:150px;
+    margin-left:250px;
+    color:white ;
+    }   
+</style>
+<body>
+    <div id="app"></div>
+    <script type="text/babel">
+      const rootElement = document.getElementById("app");
+      const Element1=()=>
+      <div id="div1"> 
+      <div id="div2">
+       <h1 style={{color:"#F5DEB3",fontSize:"35px"}}>TECHNICAL SKILLS</h1>
+       <h2 style={{fontSize:"35px"}}> 1.JavaScript</h2>
+       <h2 style={{fontSize:"35px"}}> 2.HTML</h2>
+       <h2 style={{fontSize:"35px"}}> 3.CSS</h2>
+       <h2 style={{fontSize:"35px"}}> 4.React JS</h2>
+      </div>
+      </div>;
+     ReactDOM.render(<Element1/>, rootElement);
+</script>
+</body>
+</html>
