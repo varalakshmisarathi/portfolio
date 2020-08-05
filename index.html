@@ -7,73 +7,80 @@
     <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 </head>
-  <style>
-#main
-   {
+<style>
+   #main
+    {
    background-image:url('https://i.pinimg.com/236x/9e/7f/3d/9e7f3db30731f2af0307a1c9e9186215.jpg')
-   }
-#navbar
-   {
+    }
+   #navbar
+    {
    text-align:center;
    padding:20px;
+    }
+   a
+   {
+    color:#fff;
+    text-decoration:none;
+    font-size:25px;
+    font-family:Tahoma;
+    margin-right:80px;
+    border:2px solid transparent;
+    padding 10px;
+    transition:0.3s;
    }
-a
+   a:hover
+   {
+   background:#A0522D;
+   border:2px solid #fff;
+   }
+   #img
+   {
+   border-radius:50%             
+   }
+   #text
+   {
+   cursor:pointer;
+   font-size:50px;
+   color:#fff;
+   font-family:Algerian;
+   }
+   #text1
   {
+  cursor:default;
+  font-size:30px;
   color:#fff;
-  text-decoration:none;
-  font-size:25px;
-  font-family:Tahoma;
-  margin-right:80px;
-  border:2px solid transparent;
-  padding 10px;
-  transition:0.3s;
+  font-family:Harlow Solid;
+  margin-top:-40px;
   }
-a:hover
+  #li 
   {
-  background:#A0522D;
-  border:2px solid #fff;
+  display: inline;
   }
-#img
-{
-border-radius:50%             
-}
-#text
-{
-cursor:pointer;
-font-size:50px;
-color:#fff;
-font-family:Algerian;
-}
-#text1
-{
-cursor:default;
-font-size:30px;
-color:#fff;
-font-family:Harlow Solid;
-margin-top:-40px;
-}
 </style>
 <body>
     <div id="app"></div>
     <script type="text/babel">
     const rootElement = document.getElementById("app");
       const Element1=()=>
-       <div id="main" style={{backgroundColor:"black",height:"650px",width:"1300px",marginLeft:"100px`",textAlign:"center",margin:"auto"}}>
+       <div id="main" style={{backgroundColor:"black",height:"650px",width:"1300px",marginLeft:"50px`",textAlign:"center",margin:"auto"}}>
           <div id="navbar">
           <div id="a">
-           <a href="About.html">About</a>
-           <a href="Education.html">Education</a>
-           <a href="Achievements.html">Achievements</a>
-           <a href="Skills.html">Skills</a>
-           <a href="Contacts.html">Contacts</a>
+       <ul>
+           <li id="li"><a href="index.html">Home</a></li>
+           <li id="li"><a href="About.html">About</a></li>
+           <li id="li"><a href="Education.html">Education</a></li>
+           <li id="li"><a href="Achievements.html">Achievements</a></li>
+           <li id="li"><a href="Skills.html">Skills</a></li>
+           <li id="li"><a href="Contacts.html">Contacts</a></li>
+      </ul>
           </div> 
           </div>
           <div id="img">
-          <img src="https://cdn3.iconfinder.com/data/icons/female-user-icons-1/500/fuser-laptop-512.png" style={{height:"350px",width:"330px",marginTop:"30px",marginLeft:"230px`",textAlign:"center",}}></img>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR2XoHKw3DgXP8w9XfbTp1UNDaSzpoze0vhaA&usqp=CAU" style={{height:"350px",width:"330px",marginTop:"2px",marginLeft:"180px`",textAlign:"center",}}></img>
           <h1 id="text">P.VARALAKSHMI</h1>
           <h3 id="text1">Software Engineer</h3>
           </div>
-      </div>
+       </div>
       ReactDOM.render(<Element1/>, rootElement);
 </script>
 </body>
