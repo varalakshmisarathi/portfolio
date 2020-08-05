@@ -22,7 +22,31 @@
     margin-top:150px;
     margin-left:250px;
     color:white ;
-    }   
+    } 
+#li {
+  display: inline;
+  margin: 21px;
+  color: black;
+
+}
+
+a
+  {
+  color:#F4D03F;
+  text-decoration:none;
+  font-size:25px;
+  font-family:Tahoma;
+  margin-right:50px;
+  border:2px solid transparent;
+  padding :1px;
+  transition:0.3s;
+  }
+a:hover
+  {
+  background:black;
+  border:2px solid #fff;
+  }
+      
 </style>
 <body>
     <div id="app"></div>
@@ -30,6 +54,16 @@
       const rootElement = document.getElementById("app");
       const Element1=()=>
       <div id="div1"> 
+      <div id="a">
+       <ul>
+         <li id="li"><a href="index.html"><b>Home</b></a></li>
+           <li id="li"><a href="About.html"><b>About</b></a></li>
+           <li id="li"><a href="Education.html"><b>Education</b></a></li>
+           <li id="li"><a href="Achievements.html"><b>Achievements</b></a></li>
+           <li id="li"><a href="Skills.html"><b>Skills</b></a></li>
+           <li id="li"><a href="Contacts.html"><b>Contacts</b></a></li>
+       </ul>
+      </div> 
       <div id="div2">
        <h1 style={{color:"#F5DEB3",fontSize:"35px"}}>TECHNICAL SKILLS</h1>
        <h2 style={{fontSize:"35px"}}> 1.JavaScript</h2>
