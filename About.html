@@ -12,64 +12,99 @@
     {
       font-family: cursive;
       color:white;
-      background-image:url("https://media.istockphoto.com/photos/laptop-with-blank-screen-isolated-on-white-background-picture-id1128662796?k=6&m=1128662796&s=612x612&w=0&h=HTaHZJ7ukWLAWVguQbjQe2RVpW_xZV016o8w-0VJh54=");
-      background-size: 1335px 600px;
+      background-image:url("https://blog.hubspot.com/hubfs/books-every-aspiring-ceo-should-read.jpg");
+      background-size: 1325px 600px;
       background-repeat: no-repeat;
       height: 600px;
       width:1300px; 
-      padding:20px;
+      padding:18px;
     }
 #text
     {
      font-size:35px;
      font-weight:700px;
-     color:#299BF4 ;
-     margin-left:560px;
+     color:#1039A0 ;
+     margin-left:360px;
+     margin-top:55px;
      text-transform:uppercase;
     } 
 #text1
     {
     font-size:19px;
     font-weight:700px;
-    color:black;
-    margin-left:210px;
+    color:#145A32;
+    margin-left:30px;
     font-family:cursive;
     } 
 #div3
     {
-    margin-left:250px;
-    color:#E59D18 ;
+    margin-left:30px;
+    color:#922B21  ;
     }
 #div4
     {
-    margin-left:770px;
+    margin-left:530px;
     margin-top:-210px;
-    color:#E59D18 ;
+    color:#922B21  ;
     }
-  </style>
+#li 
+{
+  display: inline;
+  margin: 21px;
+  color: black;
 
-  <body>
+}
+a
+ {
+  color:#273746 ;
+  text-decoration:none;
+  font-size:25px;
+  font-family:Tahoma;
+  margin-right:50px;
+  border:2px solid transparent;
+  padding :1px;
+  transition:0.3s;
+  }
+a:hover
+  {
+  background:yellow;
+  border:2px solid #fff;
+  }
+
+</style>
+<body>
     <div id="app"></div>
     <script type="text/babel">
       const rootElement = document.getElementById("app");
-      
       const Element1=()=>
        <div id="div1"> 
+       <div id="navbar">
+       <div id="a">
+       <ul>
+           <li id="li"><a href="index.html"><b>Home</b></a></li>
+           <li id="li"><a href="About.html"><b>About</b></a></li>
+           <li id="li"><a href="Education.html"><b>Education</b></a></li>
+           <li id="li"><a href="Achievements.html"><b>Achievements</b></a></li>
+           <li id="li"><a href="Skills.html"><b>Skills</b></a></li>
+           <li id="li"><a href="Contacts.html"><b>Contacts</b></a></li>
+       </ul>
+       </div> 
+       </div>
        <div id="div2">
-       <h1 id="text">ABOUT ME</h1>
-       <h3 id="text1">I'm a software engineer specialized in frontend and backend development for web.Though<br/> am a fresher i had technical knowledge in javascript,react js,html,and python.Am a smart<br/> worker,i can adopt to any situation and give a better solution and am a sincere and punctual</h3>
+         <h1 id="text">ABOUT ME</h1>
+         <h3 id="text1">I'm a software engineer specialized in frontend and backend development for web.As<br/> am a fresher i had technical knowledge in javascript,react js,html,and python.I am <br/>smart worker,i can adopt to any situation and give a better solution and I am sincere</h3>
        </div>
        <div id="div3">
-       <h2>Name:P.varalakshmi</h2>
-       <h2>Personal traits:Smart worker</h2>
-       <h2>Place:Puducherry</h2>
-       <h2>Language Known:Telugu,Tamil and English </h2>
+         <h2>Name:P.varalakshmi</h2>
+         <h2>Personal traits:Smart worker</h2>
+         <h2>Place:Puducherry</h2>
+         <h2>Language Known:Telugu,Tamil and English </h2>
        </div>
        <div id="div4">
-       <h2>Name:P.varalakshmi</h2>
-       <h2>Area of interest:JS,html</h2>
-       <h2>Hobby:Browsing internet</h2>
-       <h2>DOB:08.01.1999</h2>
+         <h2>Name:P.varalakshmi</h2>
+         <h2>Area of interest:JS,html</h2>
+         <h2>Hobby:Browsing internet</h2>
+         <h2>DOB:08.01.1999</h2>
        </div>
     </div>;
      const Profile=()=>{return(
