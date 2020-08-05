@@ -8,34 +8,67 @@
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
     
   </head>
-  <style>
+<style>
 #div1
     {
-      background-image:url("https://img.favpng.com/25/14/7/desktop-wallpaper-school-education-clip-art-png-favpng-dqY8iCud4eV9KvpJydsuUYp8Z.jpg");
-      background-size: 1335px 700px;
+      background-image:url("https://www.utep.edu/extendeduniversity/utepconnect/blog/november-2018/is-online-education-as-effective-as-traditional-on-campus-schooling.jpg");
+      background-size: 1300px 650px;
       background-repeat: no-repeat;
-      height: 600px;
+      height: 650px;
       width:1300px; 
-      padding:18px;
+      padding:10px;
     }
 #div2
     {
-     margin-left:180px;
-     margin-top:120px;
+     margin-left:680px;
+     margin-top:35px;
+fontsize:35px;
     }
 h3
     {
-      color:white;
+      color:#9a7124;
     }
-  </style>
+#li {
+  display: inline;
+  margin: 21px;
+  color: black;
+
+}
+a
+  {
+  color:#299BF4;
+  text-decoration:none;
+  font-size:25px;
+  font-family:Tahoma;
+  margin-right:50px;
+  border:2px solid transparent;
+  padding :1px;
+  transition:0.3s;
+  }
+a:hover
+  {
+  background:yellow;
+  border:2px solid #fff;
+  }
+</style>
 <body>
     <div id="app"></div>
     <script type="text/babel">
       const rootElement = document.getElementById("app");
       const Element1=()=>
       <div id="div1"> 
+      <div id="a">
+        <ul>
+          <li id="li"><a href="index.html"><b>Home</b></a></li>
+           <li id="li"><a href="About.html"><b>About</b></a></li>
+           <li id="li"><a href="Education.html"><b>Education</b></a></li>
+           <li id="li"><a href="Achievements.html"><b>Achievements</b></a></li>
+           <li id="li"><a href="Skills.html"><b>Skills</b></a></li>
+           <li id="li"><a href="Contacts.html"><b>Contacts</b></a></li>
+        </ul>
+          </div> 
       <div id="div2">
-       <h1 style={{color:"#299BF4",fontSize:"35px",marginLeft:"350px"}}>EDUCATION</h1>
+       <h1 style={{color:"#D68910",fontSize:"25px",marginLeft:"150px",marginTop:"70px"}}>EDUCATION</h1>
        <h2>Bachelor of Engineering</h2>
        <h3>Rajiv Gandhi College Of Engineering And Technology</h3>
        <h3>Year of passing:2020</h3>
